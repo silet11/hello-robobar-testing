@@ -21,7 +21,7 @@ public class CheckoutPage {
         PageFactory.initElements(driver, this);
     }
 
-    public OrderPage order() {
+    public OrderPage order(){
         orderButton.click();
         return new OrderPage(driver);
     }
